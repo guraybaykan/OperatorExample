@@ -2,6 +2,6 @@
 {
     public enum Currency
     {
-        USD, EUR, TRL
+        USD = '$', EUR = '€', TRL = '₺'
     }
 }
