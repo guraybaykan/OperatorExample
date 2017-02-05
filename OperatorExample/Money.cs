@@ -24,5 +24,10 @@
 
             return sum;
         }
+
+        public override string ToString()
+        {
+            return string.Format("{0} {1}", this.Value.ToString("n2"), this.Code.ToString());
+        }
     }
 }
